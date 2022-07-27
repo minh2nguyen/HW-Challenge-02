@@ -54,6 +54,7 @@ header nav ul li a:hover {
     border-radius: 15px;
 }
 
+
 /* Hero styling  */
 .hero {
     height: 600px;
@@ -67,6 +68,22 @@ header nav ul li a:hover {
 .hero img {
     height: 400px;
 }
+
+/* Class styling of the titles */
+.title {
+    border-right: 5px solid floralwhite ;
+    min-height: 100%;
+    text-align: right;
+    padding-right: 40px;
+    min-width: 20%;
+    max-width: 20%;
+}
+
+.title h3 {
+    font-size: 45px;
+}
+
+
 .work{
 
 }
