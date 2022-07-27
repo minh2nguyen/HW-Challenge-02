@@ -18,7 +18,7 @@ header{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 10px;
 }
 /* header div{
     box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
@@ -33,9 +33,17 @@ header h1{
     border: 5px solid ;
 }
 
+header h2 {
+    background-color: var(--dark);
+    color:white;
+    margin: 0%;
+    padding: 10px;
+}
+
 header a {
     text-decoration:dotted;
     color: var(--dark);
+    font-weight: bold;
 }
 
 header nav ul {
@@ -79,8 +87,20 @@ header nav ul li a:hover {
 }
 
 .hero img {
-    height: 300px;
+    height: 400px;
     border-radius: 20%;
+}
+
+.hero .quote {
+    font-size: 25px;
+    display: flex;
+    justify-content: end;
+    text-align:right;
+    color: var(--light);
+}
+
+.hero .quote #quote-text {
+    font-size: 30px;
 }
 
 /* Class styling of the titles */
