@@ -110,3 +110,17 @@ header nav ul li a:hover {
     grid-template-rows:auto;
     gap: 10px;
 }
+
+/* .project {
+    border: solid;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-decoration: none;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    
+} */
+
