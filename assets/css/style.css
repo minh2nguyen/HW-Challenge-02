@@ -84,13 +84,17 @@ header nav ul li a:hover {
     font-size: 45px;
 }
 
-/* .about-me img{
-    height: 300px;
-    border-radius: 20%;
-} */
-
 section div h3::before {
     content: "✿";
+}
+/* about me styling */
+.about-me {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: floralwhite;
+    color: rgb(13, 54, 46);
+
 }
 
 /* work styling */
@@ -98,12 +102,12 @@ section div h3::before {
     padding: 30px;
     display: flex;
     justify-content: space-between;
-    background-color: floralwhite;
-    color: rgb(13, 54, 46);
+    background-color: rgb(13, 54, 46);
+    color: floralwhite;
 }
 
 .work h3 {
-    color:rgb(13, 54, 46)
+    color:floralwhite;
 }
 
 .work-grid-wrapper {
