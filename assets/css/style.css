@@ -1,5 +1,5 @@
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Bookman, URW Bookman L, serif;
     color:white;
     background-color:rgb(13, 54, 46);
 }
@@ -83,7 +83,15 @@ header nav ul li a:hover {
     font-size: 45px;
 }
 
-
+/* work styling */
 .work{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: floralwhite;
+    color: rgb(13, 54, 46);
+}
 
+.work h3 {
+    color:rgb(13, 54, 46)
 }
