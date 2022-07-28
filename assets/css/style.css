@@ -1,6 +1,7 @@
 :root {
     --light: floralwhite;
     --dark: rgb(13, 54, 46);
+    --white: white; 
 }
 
 body{
@@ -9,7 +10,7 @@ body{
     background-color:var(--dark);
 }
 
-/* header styling  */
+/* header styling starts */
 header{
     background-image: url(https://t3.ftcdn.net/jpg/02/69/81/68/360_F_269816813_C7L0mzBDEJmxtJgKXWow4QZm8LcbV85Y.jpg);
     background-position: center;
@@ -20,22 +21,19 @@ header{
     flex-wrap: wrap;
     padding: 10px;
 }
-/* header div{
-    box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
-} */
 
 header h1{
     color: var(--dark);
     font-size: 45px;
     font-weight: bold;
-    background-color: white;
+    background-color: var(--white);
     padding: 10px;
     border: 5px solid ;
 }
 
 header h2 {
     background-color: var(--dark);
-    color:white;
+    color:var(--white);
     margin: 0%;
     padding: 10px;
 }
@@ -47,7 +45,7 @@ header a {
 }
 
 header nav ul {
-    background-color: white;
+    background-color: var(--white);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -64,17 +62,13 @@ header nav ul li a {
     margin: 20px 20px 0 0;
     font-weight: bold;
 }
-header h1:hover {
-    background:var(--dark);
-    color:var(--light);  
-}
 
 header nav ul li a:hover {
     background:var(--dark);
     color:var(--light);
     border-radius: 15px;
 }
-
+/* header styling ends */
 
 /* Hero styling starts */
 .hero {
@@ -132,8 +126,10 @@ section div h3::before {
 }
 
 .about-me div p {
-    padding: 25px;
-    text-align: justify;
+    padding: 20px;
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
 }
 /* about me styling ends */
 
@@ -161,19 +157,17 @@ section div h3::before {
 }
 
 .project {
-    border: solid;
-    color: var(--light);
+    border: solid var(--light);
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    text-decoration: none;
     background-size: cover;
     background-position: center;
-    opacity: 0.5;
+    opacity: 100%;
 }
 
 .project:hover {
-    opacity: 1.0;
+    opacity: 40%;
 }
 
 .project-horisen-code {
@@ -184,18 +178,22 @@ section div h3::before {
 
 .project2 {
     background-image: url(../images/COMING-SOON.jpeg);
+    background-size:22em;
 }
 
 .project3 {
     background-image: url(../images/COMING-SOON.jpeg);
+    background-size:22em;
 }
 
 .project4 {
     background-image: url(../images/COMING-SOON.jpeg);
+    background-size:22em;
 }
 
 .project5 {
     background-image: url(../images/COMING-SOON.jpeg);
+    background-size:22em;
 }
 
 .project-label {
@@ -249,9 +247,9 @@ section div h3::before {
 
  /* footer styling starts */
  footer {
-    font-size: 15px;
+    font-size: 20px;
     margin: 0 auto;
     text-align: center;
-    width:10%; 
+    width:20%; 
  }
   /* footer styling endss */
