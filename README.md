@@ -19,7 +19,7 @@ I have created a professional portfolio from scratch using HTML and CSS. The pro
 
     - Making sure my page resizes to various screens. 
 
-    - Being creative and having fun by adding my own personal flair. 
+    - Being creative and having fun by adding my own personal flair! 
 
 I plan on adding more projects, a resume, linkedin, and editing this profile as I continue to learn more throughout my bootcamp experience. 
 
@@ -30,3 +30,6 @@ I plan on adding more projects, a resume, linkedin, and editing this profile as 
 ![Alt text](./assets/images/MT%20Profile%202.png)
 
 ## Links
+Deploy Profile Link: https://minh2nguyen.github.io/MinhThu-Professional-Portfolio/
+
+Github Repository: https://github.com/minh2nguyen/MinhThu-Professional-Portfolio 
