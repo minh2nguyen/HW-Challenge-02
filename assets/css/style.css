@@ -135,35 +135,34 @@ section div h3::before {
     text-align: justify;
 }
 
-/* work styling */
-.work{
-    padding: 30px;
+/* work styling starts*/
+.my-work {
+    padding: 30px 0;
     display: flex;
     justify-content: space-between;
-    background-color: var(--dark);
-    color: var(--light);
+    background-color: var(--primary);
 }
 
-.work h3 {
-    color:var(--light);
+.my-work h2 {
+    color: var(--secondary);
 }
 
-.work-grid-wrapper {
+.projects-grid-wrapper {
     width: 80%;
     height: 500px;
     display: flex;
     justify-content: center;
 }
 
-.work-grid {
+.projects-grid {
     width: 70%;
     display: grid;
-    grid-template-columns:auto;
-    grid-template-rows:auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     gap: 10px;
 }
 
-/* .project {
+.project {
     border: solid;
     color: black;
     display: flex;
@@ -173,8 +172,42 @@ section div h3::before {
     background-size: cover;
     background-position: center;
     opacity: 0.5;
-    
-} */
+}
+
+.project:hover {
+    opacity: 1.0;
+}
+
+.project-horiesen-code {
+    grid-column: 1/3;
+    grid-row: span 2;
+    background-image: url(file:///Users/minhthunguyen/Documents/GitHub/HW-Challenge-02/assets/images/Horisen%20Screenshot%201.png);
+}
+
+.robot-gladiators {
+    background-image: url();
+    background-position: 50% 15%;
+}
+
+.prestige-worldwide {
+    background-image: url();
+    background-position: 60% 50%;
+}
+
+.fo4-char-mgr {
+    background-image: url();
+}
+
+.project5 {
+    background-image: url();
+}
+
+.project-label {
+    background-color: var(--secondary);
+    background-color: lightgray;;
+    color: var(--primary);
+    padding: 10px;
+} 
 
 /* contact-me styling */
 .contact-me {
