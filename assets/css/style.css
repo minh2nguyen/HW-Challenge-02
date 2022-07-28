@@ -185,3 +185,42 @@ section div h3::before {
     color: var(--dark);
 }
 
+.contact-wrapper{
+    width:80%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-list {
+    width: 60%;
+}
+
+.contact-me ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.contact-me ul li a {
+    font-weight: bold;
+    color: var(--dark);
+    padding: 10px;
+}
+ .contact-me ul li a:hover {
+    background:var(--dark);
+    color:var(--light); 
+ }
+
+ /* footer styling */
+ footer {
+    font-size: 15px;
+    margin: 0 auto;
+    text-align: center;
+    width:10%; 
+
+ }
