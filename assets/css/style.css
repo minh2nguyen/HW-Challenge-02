@@ -168,6 +168,8 @@ section div h3::before {
 
 .project:hover {
     opacity: 40%;
+    border-color:yellow;
+    border-width: 10px;
 }
 
 .project-horisen-code {
