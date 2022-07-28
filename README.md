@@ -23,13 +23,13 @@ I have created a professional portfolio from scratch using HTML and CSS. The pro
 
 I plan on adding more projects, a resume, linkedin, and editing this profile as I continue to learn more throughout my bootcamp experience. 
 
-## Screenshots
+## Screenshots:
 
 ![Alt text](./assets/images/MT%20Profile%201.png)
 
 ![Alt text](./assets/images/MT%20Profile%202.png)
 
-## Links
+## Links:
 Deploy Profile Link: https://minh2nguyen.github.io/MinhThu-Professional-Portfolio/
 
 Github Repository: https://github.com/minh2nguyen/MinhThu-Professional-Portfolio 
