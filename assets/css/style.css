@@ -196,8 +196,8 @@ section div h3::before {
 }
 
 .project3 {
-    background-image: url(../images/COMING-SOON.jpeg);
-    background-size: var();
+    background-image: url(/assets/images/DreamIcon\ \(1\).jpg);
+    background-size: contain;
 }
 
 .project4 {
